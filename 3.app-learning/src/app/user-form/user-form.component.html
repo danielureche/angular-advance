@@ -1,0 +1,9 @@
+<div class="form">
+    <h2 class="form__title">Form Users</h2>
+    <section class="form__fields">
+        <article *ngIf="!!messageError" class="form__fields--error-message">
+            <p>{{messageError}}</p>
+        </article>
+        <app-fields-form (sendUser)="sendUser($event)"/>
+    </section>
+</div>

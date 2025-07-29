@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 14.176899760776095,
+      "title": "un post ",
+      "description": "es sencillo"
+    },
+    {
+      "id": 11.220792961509286,
+      "title": "post 1",
+      "description": "descripción"
+    }
+  ]
+}

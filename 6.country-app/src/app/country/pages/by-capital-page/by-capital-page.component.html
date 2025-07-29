@@ -1,0 +1,3 @@
+<country-search-input [valueDefined]="query()" (onSearchOutput)="query.set($event)" placeholder="Buscar por cápital"/>
+
+<country-list-table [countries]="callServiceCountries.value() ?? []" [isLoading]="callServiceCountries.isLoading()" [isError]="callServiceCountries.error()"/>

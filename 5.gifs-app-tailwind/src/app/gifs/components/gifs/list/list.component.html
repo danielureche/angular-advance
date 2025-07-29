@@ -1,0 +1,7 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    @for (item of gifs(); track item.id) {
+        <app-item [image]="item.url"/>
+    } @empty {
+        <p class="text-black">¡There is not images preview!</p>
+    }
+</div>
