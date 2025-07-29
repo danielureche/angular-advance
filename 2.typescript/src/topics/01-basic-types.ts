@@ -1,18 +1,18 @@
 // string
 
-let name = "Carlos";
+let name = "Daniel";
 
-name = "Juan";
+name = "Daniel";
 
-const name_const = "Arturo";
+const name_const = "Bryan";
 
 // This error name_const is a constant
-// name_const = 'Orrego'
+// name_const = 'Ureche'
 
 // number and string
 
 // Support two types of numbers
-let hpPoints: number | string = "Orrego";
-console.log(hpPoints) // "Orrego"
+let hpPoints: number | string = "Ureche";
+console.log(hpPoints) // "Ureche"
 hpPoints = 30;
-console.log(hpPoints) // 30
+console.log(hpPoints)
